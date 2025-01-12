@@ -1,0 +1,6 @@
+include themes/kitty/dist/kanagawa.conf
+font_size 16
+font_family Jetbrains Mono Nerd Font
+background_opacity 0.9
+adjust_line_height 110%
+line_padding_bottom 100 
