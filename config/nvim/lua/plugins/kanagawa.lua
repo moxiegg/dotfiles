@@ -1,7 +1,0 @@
-return {
-	{
-		"rebelot/kanagawa.nvim",
-	}	
-}
-
-
