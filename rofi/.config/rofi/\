@@ -198,6 +198,6 @@ default_border none
 default_floating_border none
 
 workspace_layout default
-gaps top 37 
+gaps top 33
 
 #for_window [class="Polybar"] floating = enable
