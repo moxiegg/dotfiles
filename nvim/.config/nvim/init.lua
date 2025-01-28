@@ -266,7 +266,24 @@ require('lazy').setup({
       },
     },
   },
-
+  {
+    'akinsho/toggleterm.nvim',
+    version = '*',
+    config = function()
+      require('toggleterm').setup {
+        open_mapping = [[<c-\>]],
+        direction = 'float',
+        float_opts = {
+          border = 'curved',
+          width = 60,
+          height = 10,
+        },
+        on_open = function(term)
+          vim.cmd('cd' .. vim.fn.getcwd())
+        end,
+      }
+    end,
+  },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
