@@ -273,6 +273,12 @@ require('lazy').setup({
       require('toggleterm').setup {
         open_mapping = [[<c-\>]],
         direction = 'float',
+        highlights = {
+          FloatBorder = {
+            guifg = '#54546d',
+            guibg = 'NONE',
+          },
+        },
         float_opts = {
           border = 'curved',
           width = 60,
