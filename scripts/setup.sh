@@ -9,6 +9,7 @@ packages=(
 	neovim
 	i3
 	polybar
+ 	stow
 )
 echo "Installing packages"
 sudo pacman -S --noconfirm --needed "${packages[@]}"
