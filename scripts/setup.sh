@@ -1,7 +1,9 @@
 echo "Starting setup"
+set -e
+set -o pipefail
 #sudo pacman -Syu 
 packages=(
-	neofetch
+	fastfetch
 	kitty
 	feh
 	git
@@ -17,7 +19,7 @@ echo "Stowing Packages"
 
 
 stowpackages=(
-	neofetch
+	fastfetch
 	kitty
 	picom
 	nvim
