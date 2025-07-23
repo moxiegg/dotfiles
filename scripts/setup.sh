@@ -27,6 +27,7 @@ stowpackages=(
 	i3
 	polybar
 	bash
+	rofi
 )
 
 cd ~/dotfiles
@@ -45,8 +46,9 @@ fi
 
 aur_packages=(
 	firefox
-	dmenu
-	nerd-fonts-meslo
+	rofi
+	ttf-jetbrains-mono-nerd
+	ttf-meslo-nerd
 )
 
 echo "Installing AUR Packages"
