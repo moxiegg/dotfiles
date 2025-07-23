@@ -35,6 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id picom
 exec_always feh --bg-fill ~/.config/wallpaper/eren.jpg
+exec_always --no-startup-id xsetroot -cursor_name left_ptr
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
