@@ -43,7 +43,7 @@ if ! command -v yay &> /dev/null; then
 	rm -rf /tmp/yay
 fi
 
-aur_packages = (
+aur_packages=(
 	firefox
 	dmenu
 	nerd-fonts-meslo
