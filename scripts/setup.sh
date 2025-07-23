@@ -34,20 +34,21 @@ stow "${stowpackages[@]}" --adopt
 git reset --hard
 echo "Restarting i3"
 i3-msg restart
-#echo "Installing yay"
-#if ! command -v yay &> /dev/null; then
-#	git clone https://aur.archlinux.org/yay.git /tmp/yay
-#	cd /tmp/yay || exit
-#	makepkg -si --noconfirm
-#	cd - || exit
-#	rm -rf /tmp/yay
-#fi
+echo "Installing yay"
+if ! command -v yay &> /dev/null; then
+	git clone https://aur.archlinux.org/yay.git /tmp/yay
+	cd /tmp/yay || exit
+	makepkg -si --noconfirm
+	cd - || exit
+	rm -rf /tmp/yay
+fi
 
-#aur_packages = (
-#	firefox
-#	dmenu
-#)
+aur_packages = (
+	firefox
+	dmenu
+	nerd-fonts-meslo
+)
 
-#echo "Installing AUR Packages"
-#yay -S --noconfirm "${aur_packages[@]}"
-#echo "Setup Complete"
+echo "Installing AUR Packages"
+yay -S --noconfirm "${aur_packages[@]}"
+echo "Setup Complete"
