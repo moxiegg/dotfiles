@@ -10,6 +10,7 @@ packages=(
 	picom
 	neovim
 	i3
+	xorg-server
 	polybar
  	stow
 )
