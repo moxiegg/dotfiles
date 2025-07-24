@@ -49,6 +49,7 @@ aur_packages=(
 	rofi
 	ttf-jetbrains-mono-nerd
 	ttf-meslo-nerd
+	xorg-xsetroot
 )
 
 echo "Installing AUR Packages"
