@@ -1,8 +1,8 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
+    "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/brook.png\" )",
     "height": 18,
-    "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/luffy2.png\" )",
     "padding": {
         "right": 0
     }
@@ -13,17 +13,17 @@
   "modules": [
     {
       "type": "custom",
-      "format": " -------------------------- 󱓇  ------------------------ ",
+      "format": " -------------------------------- 󱓇  ------------------------------ ",
       "outputcolor":"#c8c093"
     },
     {
       "type": "custom",
-      "format": "   If it's a Boring Adventure, I don't want to do it ",
+      "format": "  No matter how deep the night, it always turns to day, eventually " ,
       "outputcolor": "#c7682e"
     },
     {
       "type": "custom",
-      "format": " -------------------------- 󱓇  ------------------------ ",
+      "format": " -------------------------------- 󱓇  ------------------------------ ",
       "outputcolor":"#c8c093"
     },
     {

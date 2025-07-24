@@ -1,0 +1,3 @@
+CONFIGS=(~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config1.jsonc)
+RANDOM_CONFIG=${CONFIGS[$RANDOM % ${#CONFIGS[@]}]}
+/usr/bin/fastfetch --config "$RANDOM_CONFIG" "$@"

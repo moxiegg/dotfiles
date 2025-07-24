@@ -12,3 +12,4 @@ export PROJECT_DIR='~/Documents'
 #export XDG_CONFIG_HOME='$HOME/.config'
 alias cdproj="cd $PROJECT_DIR"
 alias fastfetch='clear && fastfetch'
+export PATH="$HOME/.local/bin:$PATH"
