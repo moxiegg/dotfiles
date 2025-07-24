@@ -13,7 +13,18 @@
   "modules": [
     {
       "type": "custom",
-      "format": "    If it's a Boring Adventure, I don't want to do it.  "
+      "format": " -------------------------- 󱓇  ------------------------ ",
+      "outputcolor":"#c8c093"
+    },
+    {
+      "type": "custom",
+      "format": "   If it's a Boring Adventure, I don't want to do it ",
+      "outputcolor": "#c7682e"
+    },
+    {
+      "type": "custom",
+      "format": " -------------------------- 󱓇  ------------------------ ",
+      "outputcolor":"#c8c093"
     },
     {
       "type": "custom",
@@ -21,7 +32,7 @@
     },
     {
       "type": "os",
-      "key": "   "
+      "key": "   ",
     },
     {
       "type": "kernel",
@@ -60,7 +71,9 @@
         },
     {
       "type": "custom",
-      "format": "  󰊤  : moxiegg",
+      "key":"  󰊤 ",
+      "format": "moxiegg",
+      "outputcolor": "#c8c093"
     },
     "break",
     {
@@ -69,7 +82,8 @@
     },
     {
       "type": "custom",
-      "format": ""
+      "format": "",
+      "key":" ",
     },
     {
       "type": "cpu",
@@ -92,7 +106,8 @@
     },
     {
       "type": "custom",
-      "format": ""
+      "format": "",
+      "key":" "
     },
   ]
 }
