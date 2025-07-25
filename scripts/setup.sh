@@ -34,7 +34,7 @@ cd ~/dotfiles
 stow "${stowpackages[@]}" --adopt 
 git reset --hard
 echo "Restarting i3"
-i3-msg restart
+#i3-msg restart
 echo "Installing yay"
 if ! command -v yay &> /dev/null; then
 	git clone https://aur.archlinux.org/yay.git /tmp/yay
